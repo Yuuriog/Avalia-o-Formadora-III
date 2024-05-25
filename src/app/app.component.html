@@ -1,0 +1,7 @@
+<div class="main-container">
+  <button (click)="mostrarSobre = !mostrarSobre" class="btn-toggle">
+    {{ mostrarSobre ? 'Sobre' : 'Sobre' }}
+  </button>
+  <app-sobre *ngIf="mostrarSobre"></app-sobre>
+  <app-cep></app-cep>
+</div>

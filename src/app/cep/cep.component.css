@@ -1,0 +1,28 @@
+.cep-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.endereco-info {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.3);
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  color: rgb(58, 58, 58);
+}
+
+button {
+  background: rgb(187, 28, 28);
+  border-radius: 40px;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  color: white;
+}
